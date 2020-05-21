@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  header {
+    margin-top: 25px;
+    height:80px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 55px;
+    text-align: center;
+  }
+  
+  .quizHeader {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+  
+  ul{
+    list-style: none;
+    text-align: center;
+  }
+  li {
+    margin: 1em;
+    display: inline-block;
+    font-size: 1em;
+  }
+  
+  .startQuiz {
+    width: 30em;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    border: 0.1em #000000 solid;
+  }
