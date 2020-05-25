@@ -1,38 +1,119 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+header {
+  height:3em;
+  color: rgb(0, 0, 0);
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 0.2em;
+ 
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+li {
+  margin: 1em;
+  display: inline-block;
+  font-size: 1em;
+}
+
+.container {
+  width: 30em;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  border: 0.1em #000000 solid;
+   
+}
+
+.images {
+  margin-bottom: 1em;
+  max-width: 25em;
+  max-height: 25em;
+}
+
+.gif {
+ margin-bottom: 1em;
+  width: 25em;;
+}
+
+fieldset {
+  border: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+
+@media only screen and (min-width: 320px) {
+
+.container {
+    width: 90%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
   }
-  
-  header {
-    margin-top: 25px;
-    height:80px;
-    color: rgb(0, 0, 0);
-    margin-bottom: 55px;
-    text-align: center;
+   .images {
+    width: 85%;
   }
-  
-  .quizHeader {
-    max-width: 1000px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
+    .gif {
+    width: 85%;
   }
-  
-  ul{
-    list-style: none;
-    text-align: center;
-  }
-  li {
-    margin: 1em;
-    display: inline-block;
+
+    .button {
+    margin-top: 0.5em;
     font-size: 1em;
+    width: 4em;
+    height: 2em;
+    display: inline-block;
   }
-  
-  .startQuiz {
-    width: 30em;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    margin: auto;
-    padding: 1em;
-    border: 0.1em #000000 solid;
+
+}
+
+@media only screen and (min-width: 550px) {
+
+.container {
+  width: 30em;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+  padding: 1em;
+  border: 0.1em #000000 solid;
+   
+}
+
+.images {
+  margin-bottom: 1em;
+  max-width: 25em;
+  max-height: 25em;
+}
+
+.gif {
+  margin-bottom: 1em;
+  width: 25em;;
+}
+
+.button {
+  margin-top: 0.5em;
+  font-size: 1em;
+  width: 8em;
+  height: 2.5em;
+  display: inline-block;
   }
+
+}

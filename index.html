@@ -1,7 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
 	<title>Ferret Quiz</title>
+    <meta name="description" type="A quiz about ferrets.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -10,21 +14,35 @@
 		<div class="quizHeader">
 			<h1>Ferret Quiz</h1>
 			<div>Question:
-				<span class="questionNumber">0</span>/5
+				<span class="currentQuestion">0</span>/5
       </div>
       <div>Score:
         <span class="score">0</span>    
       </div>
 		</div>
 	</header>
-<section class="startQuiz">
-        <h2>How much do you know about ferrets?</h2>
-        <button type="button" class="startButton button">Start</button>
-</section>
+  
+<main class="container">
+  <section class="startQuiz box altBox">
+    <h2>How much do you know about ferrets?</h2>
+    <img src="images/ferretgroup.jpg" alt="four ferrets" class="images">
+    <button type="button" class="startButton button">Start</button>
+  </section>
+              
+  <section class="questionBox box altBox"></section>
+  <section class="response box altBox"></section>
+  <section class="final box altBox"></section>
+</main>
 
-	<script src="script.js">
+  
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+  </script>
+	<script src="index.js">
+  </script>
 
-	</script>
+
 </body>
 
 </html>
