@@ -16,6 +16,7 @@ header {
 
 fieldset {
   border: 0;
+
 }
 
 label {
@@ -23,7 +24,9 @@ label {
   margin-bottom: 0.5em;
   padding: 0.5em;
   cursor: pointer;
+  
 }
+
 
 .container {
   width: 50%;
